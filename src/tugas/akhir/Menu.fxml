@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="581.0" style="-fx-background-color: #999999;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugas.akhir.MenuController">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="107.0" prefWidth="581.0" style="-fx-background-color: #00b8e6;" />
+      <AnchorPane layoutY="368.0" prefHeight="109.0" prefWidth="581.0" style="-fx-background-color: #00b8e6;" />
+      <Label layoutX="140.0" layoutY="21.0" prefHeight="68.0" prefWidth="324.0" text="MENU WARTEG" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="160.0" text="Tempe" textFill="#1b0202">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="193.0" text="Tahu" textFill="#1b0202">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="225.0" text="Ayam" textFill="#1b0202">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="256.0" text="Telor" textFill="#1b0202">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="289.0" text="Lele" textFill="#1b0202">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="322.0" text="Jeroan" textFill="#1b0202">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="tempe" focusColor="#f2f2f2" layoutX="178.0" layoutY="151.0" maxWidth="86.0" minWidth="69.0" prefHeight="31.0" prefWidth="69.0" unFocusColor="BLACK">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </JFXTextField>
+      <Label layoutX="120.0" layoutY="160.0" text="1000" textFill="#1b0202">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="193.0" text="1000" textFill="#1b0202">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="225.0" text="2500" textFill="#1b0202">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="256.0" text="1500" textFill="#1b0202">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="289.0" text="3000" textFill="#1b0202">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="322.0" text="1000" textFill="#1b0202">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="131.0" text="Makanan" textFill="#1b0202">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="132.0" text="Harga" textFill="#1b0202">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="tahu" focusColor="#f2f2f2" layoutX="178.0" layoutY="178.0" maxWidth="86.0" minWidth="69.0" prefHeight="31.0" prefWidth="69.0" unFocusColor="BLACK">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="ayam" focusColor="#f2f2f2" layoutX="178.0" layoutY="210.0" maxWidth="86.0" minWidth="69.0" prefHeight="31.0" prefWidth="69.0" unFocusColor="BLACK">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="telor" focusColor="#f2f2f2" layoutX="178.0" layoutY="242.0" maxWidth="86.0" minWidth="69.0" prefHeight="31.0" prefWidth="69.0" unFocusColor="BLACK">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="lele" focusColor="#f2f2f2" layoutX="178.0" layoutY="272.0" maxWidth="86.0" minWidth="69.0" prefHeight="31.0" prefWidth="69.0" unFocusColor="BLACK">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="jeroan" focusColor="#f2f2f2" layoutX="178.0" layoutY="305.0" maxWidth="86.0" minWidth="69.0" prefHeight="31.0" prefWidth="69.0" unFocusColor="BLACK">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </JFXTextField>
+      <Label layoutX="325.0" layoutY="163.0" text="Es Teh" textFill="#1b0202">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="325.0" layoutY="196.0" text="Es Jeruk" textFill="#1b0202">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="325.0" layoutY="228.0" text="Es blewah" textFill="#1b0202">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="325.0" layoutY="259.0" text="Kopi" textFill="#1b0202">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="325.0" layoutY="292.0" text="Josua" textFill="#1b0202">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="325.0" layoutY="325.0" text="Pop Ice" textFill="#1b0202">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="teh" layoutX="489.0" layoutY="144.0" maxWidth="86.0" minWidth="69.0" prefHeight="31.0" prefWidth="69.0" unFocusColor="BLACK">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </JFXTextField>
+      <Label layoutX="424.0" layoutY="162.0" text="2000" textFill="#1b0202">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="424.0" layoutY="195.0" text="2500" textFill="#1b0202">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="424.0" layoutY="227.0" text="3000" textFill="#1b0202">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="424.0" layoutY="258.0" text="4000" textFill="#1b0202">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="424.0" layoutY="291.0" text="5000" textFill="#1b0202">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="424.0" layoutY="324.0" text="5000" textFill="#1b0202">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="323.0" layoutY="133.0" text="Minuman" textFill="#1b0202">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="421.0" layoutY="132.0" text="Harga" textFill="#1b0202">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="jeruk" layoutX="489.0" layoutY="171.0" maxWidth="86.0" minWidth="69.0" prefHeight="31.0" prefWidth="69.0" unFocusColor="BLACK">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="blewah" layoutX="489.0" layoutY="203.0" maxWidth="86.0" minWidth="69.0" prefHeight="31.0" prefWidth="69.0" unFocusColor="BLACK">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="kopi" layoutX="489.0" layoutY="235.0" maxWidth="86.0" minWidth="69.0" prefHeight="31.0" prefWidth="69.0" unFocusColor="BLACK">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="josua" layoutX="489.0" layoutY="265.0" maxWidth="86.0" minWidth="69.0" prefHeight="31.0" prefWidth="69.0" unFocusColor="BLACK">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="ice" layoutX="489.0" layoutY="298.0" maxWidth="86.0" minWidth="69.0" prefHeight="31.0" prefWidth="69.0" unFocusColor="BLACK">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="reset" buttonType="RAISED" layoutX="126.0" layoutY="400.0" onAction="#reset" prefHeight="40.0" prefWidth="92.0" ripplerFill="WHITE" style="-fx-background-color: #999999;" text="Reset" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="bayar" buttonType="RAISED" layoutX="358.0" layoutY="400.0" onAction="#bayar" prefHeight="40.0" prefWidth="98.0" ripplerFill="WHITE" style="-fx-background-color: #999999;" text="Bayar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="179.0" layoutY="133.0" text="Jumlah" textFill="#170303">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="487.0" layoutY="133.0" text="Jumlah" textFill="#1e0404">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

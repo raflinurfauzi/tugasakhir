@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="349.0" prefWidth="279.0" style="-fx-background-color: #00b8e6;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugas.akhir.DaftarController">
+   <children>
+      <JFXTextField fx:id="user1" focusColor="WHITE" layoutX="64.0" layoutY="99.0" maxWidth="211.0" minWidth="138.0" prefHeight="48.0" prefWidth="153.0" promptText="USERNAME" unFocusColor="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="pass1" focusColor="WHITE" layoutX="64.0" layoutY="139.0" maxWidth="202.0" minWidth="131.0" prefHeight="44.0" prefWidth="153.0" promptText="PASSWORD" unFocusColor="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="lahir" focusColor="WHITE" layoutX="64.0" layoutY="178.0" maxWidth="211.0" minWidth="131.0" prefHeight="44.0" prefWidth="153.0" promptText="LAHIR" unFocusColor="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font></JFXTextField>
+      <Label layoutX="26.0" layoutY="31.0" text="PENDAFTARAN" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="buat" layoutX="40.0" layoutY="240.0" onAction="#buat" prefHeight="44.0" prefWidth="86.0" style="-fx-background-color: #999999;" text="BUAT" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="login1" layoutX="153.0" layoutY="240.0" onAction="#login1" prefHeight="44.0" prefWidth="86.0" style="-fx-background-color: #999999;" text="LOGIN" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="isi" layoutX="69.0" layoutY="284.0" prefHeight="44.0" prefWidth="153.0" />
+      <AnchorPane layoutY="306.0" prefHeight="44.0" prefWidth="279.0" style="-fx-background-color: #bfbfbf;" />
+   </children>
+</AnchorPane>
